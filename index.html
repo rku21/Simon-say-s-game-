@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon's says game</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        .line1 {
+            display: flex;
+            gap: 30px;
+
+        }
+        .box {
+            height: 150px ;
+            width: 150px;
+            border: 5px solid black;
+            border-radius:20px;
+        }
+        .line2 {
+            display: flex;
+            gap: 30px;
+            margin-top: 30px;
+        }
+        .red {
+            background-color: red;
+        }
+        .yellow {
+            background-color: yellow;
+        }
+        .mediumblue {
+            background-color: mediumblue;
+        }
+        .aqua {
+            background-color: aqua;
+        }
+        .white {
+            background-color: white;
+        }
+        .start {
+            margin-top: 100px;
+            height: 50px;
+            background-color:maroon;
+            color: white;
+            border-radius: 20px;
+
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Simon's Says Game </h1>
+    <h2>Let's Play The Game</h2>
+    <div class="line1">
+        <div class="red box" type="button"></div>
+        <div class="yellow box" type="button"></div>
+    </div>
+    <div class="line2">
+        <div class="mediumblue box" type="button"></div>
+        <div class="aqua box" type="button"></div>
+    </div>
+    <button class="start">Start the Game</button>
+    <script src="script.js"></script>
+    
+</body>
+</html>
